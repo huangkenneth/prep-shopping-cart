@@ -1,0 +1,79 @@
+#header{
+	background-color: teal;
+	padding: 5px;
+}
+
+h1 {
+	/*padding-left: 5px;*/
+	padding: 5px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#header img{
+	float:left;
+	margin-top: 20px;
+
+}
+
+#items img{
+	width:150px;
+	height:150px;
+	/*float: left;*/
+	/*margin-top:100px;*/
+}
+
+
+.dollars{
+	float:right;	
+	color: red;
+	font-weight: bold;
+}
+
+
+
+.dollars:before{
+	content: '$';
+}
+
+#subtotal{
+	font-size: 20px;
+	margin-top: 30px;
+	border-top: 2px solid black;
+	display: block;
+	padding-top: 10px;
+	text-align: right;	
+	color: red;
+	font-weight: bold;
+}
+
+
+#subtotal:before{
+	content:'$';
+}
+
+.text{
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px dashed black;
+	
+}
+
+#holder{
+	display: inline;
+}
+
+.text:hover{
+	color: blue;
+	font-weight: bold;
+	/*display: block;*/
+}
+
+.text:active{
+	box-shadow: 2px 2px 1px grey;
+}
+
+.images{
+	display:none;
+	/*float: left;*/
+}
